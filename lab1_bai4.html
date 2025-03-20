@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bí mật bán hàng</title>
+    <style>
+        /* Khung ngoài cùng có viền đen bao quanh toàn bộ trang */
+        body {
+            border: 8px solid black; /* Viền đen bao quanh */
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif; /* Định kiểu chữ */
+        }
+
+        /* Khung đầu tiên chứa cả chữ và hình ảnh với viền nhạt */
+        .first-frame {
+            border: 4px solid #ccc; /* Viền nhạt cho nội dung */
+            padding: 20px; /* Khoảng cách giữa viền và nội dung */
+            margin-bottom: 20px; /* Khoảng cách giữa các khung */
+            text-align: center; /* Canh giữa nội dung */
+        }
+
+        /* Khung thứ hai chứa chỉ hình ảnh với viền đen */
+        .second-frame {
+            border: 8px solid black; /* Viền đen */
+            padding: 20px; /* Khoảng cách giữa viền và hình ảnh */
+            margin-bottom: 20px; /* Khoảng cách giữa các khung */
+            text-align: center; /* Canh giữa hình ảnh */
+        }
+
+        /* Đảm bảo hình ảnh không vượt quá kích thước khung */
+        .first-frame img, .second-frame img {
+            max-width: 100%; /* Hình ảnh co lại vừa với khung */
+            height: auto; /* Duy trì tỷ lệ hình ảnh */
+            border-radius: 10px; /* Làm tròn các góc của hình ảnh */
+        }
+
+        /* Khoảng cách giữa văn bản và hình ảnh trong khung đầu tiên */
+        .first-frame p {
+            margin: 20px 0; /* Khoảng cách giữa văn bản và hình ảnh */
+        }
+    </style>
+</head>
+<body>
+    <!-- Khung đầu tiên chứa cả chữ và hình ảnh với viền nhạt -->
+    <div class="first-frame">
+        <p><strong>Xây dựng quy trình để tối ưu hóa thời gian</strong></p>
+        <p>
+            Hãy dừng ngay việc bán hàng trên trang cá nhân vì điều đó vừa làm phiền
+            bạn bè lại vừa không được các nền tảng hiện nay hỗ trợ và bạn mãi chỉ là 
+            cò con. Cuốn sách 43 Bí Mật Bán Hàng Online Tuyệt Đỉnh của MBA Phan 
+            Anh sẽ bật mí cho bạn tất tần tật về bán hàng trực tuyến trên mọi nền tảng 
+            từ Facebook, Google, thương mại điện tử, Instagram, Tiktok, Zalo… Chi tiết tư duy cho đến công cụ để công việc bán hàng của bạn đạt lợi nhuận cao 
+            nhất, trở thành số 1 trong ngành hàng.
+        </p>
+        <a href="#"> 
+            <img src="images/Sach_5.jpg" alt="Sách Bí Mật Bán Hàng Online">
+        </a>
+    </div>
+
+    <!-- Khung thứ hai chứa hình ảnh bìa cuối sách với viền đen -->
+    <div class="second-frame">
+        <a href="#"> 
+            <img src="images/Sach_6.jpg" alt="Bìa cuối sách">
+        </a>
+    </div>
+
+</body>
+</html>
